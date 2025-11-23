@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=4 uid="uid://buq7bpvn5fqhy"]
+[gd_scene load_steps=5 format=4 uid="uid://buq7bpvn5fqhy"]
 
 [ext_resource type="TileSet" uid="uid://cen251p3us277" path="res://Dungeon.tres" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://6tn4abvmt660" path="res://character_body_2d.gd" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://bxmdkdk27oxsa" path="res://icon.svg" id="3_0hol4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
+size = Vector2(65, 66)
 
 [node name="Node2D" type="Node2D"]
 
@@ -10,3 +15,16 @@ tile_set = ExtResource("1_wtcfe")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(578, -445)
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(587, -289)
+script = ExtResource("2_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_q6r6c")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-0.9999924, 0)
+scale = Vector2(0.492, 0.5)
+texture = ExtResource("3_0hol4")
