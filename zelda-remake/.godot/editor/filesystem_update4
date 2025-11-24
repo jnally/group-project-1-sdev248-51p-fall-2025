@@ -1,0 +1,8 @@
+res://Dungeon.tres
+res://player/player.tscn
+res://node_2d.tscn
+res://main.tscn
+res://player/player.gd
+res://main/main.gd
+res://main/main.tscn
+res://main/camera_2d.gd

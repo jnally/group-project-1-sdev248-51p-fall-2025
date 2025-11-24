@@ -1,0 +1,21 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1763955103
+Dungeon.tres::TileSet::5082127975441778524::1763953558::0::1::::<><><>0<>0<><>::uid://vxu8bav8n2tf::::res://Dungeon_Sprite_Sheet.png
+Dungeon_Sprite_Sheet .jpg::::-1::1763952650::1763952650::0::::<><><>0<>0<>84a86088ee0fe08a1907e47fd806e78c<>::
+Dungeon_Sprite_Sheet.jpg::CompressedTexture2D::4299842321901997508::1763952650::1763952763::1::::<><><>0<>0<>7174766eb7505d7fc50a178eba15b68b<>res://.godot/imported/Dungeon_Sprite_Sheet.jpg-0c14ad57393c7130a8653d6e7b504452.ctex::
+Dungeon_Sprite_Sheet.png::CompressedTexture2D::1522719729318381711::1763952650::1763952763::1::::<><><>0<>0<>e4d9f4698b526ff57fb5f727772d88e7<>res://.godot/imported/Dungeon_Sprite_Sheet.png-56d78813e31be7ece67839008a05d1de.ctex::
+main.tscn::PackedScene::3825173151003247662::1763955312::0::1::::<><><>0<>0<><>::uid://cen251p3us277::::res://Dungeon.tres<>uid://cpwd6c4o6mcag::::res://player/player.tscn
+::res://addons/::1763952864
+::res://assets/::1763953529
+test sprite.png::CompressedTexture2D::4806614428591562097::1763953518::1763953529::1::::<><><>0<>0<>2a1aa21b172296b1a9baf8186b6e8fe2<>res://.godot/imported/test sprite.png-b47fbde4de669385e0e33a807656f8ac.ctex::
+::res://godot-git-plugin/::1763952651
+git_plugin.gdextension::GDExtension::2899736122753442061::1763952650::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile::-1::1763952651::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile::-1::1763952650::0::1::::<><><>0<>0<><>::
+::res://godot-git-plugin/linux/::1763952651
+::res://godot-git-plugin/macos/::1763952651
+::res://godot-git-plugin/win64/::1763952877
+::res://main/::0
+::res://player/::1763955159
+player.gd::GDScript::3885915991478091461::1763955159::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5871327993659378782::1763955159::0::1::::<><><>0<>0<><>::uid://caqmicoepfstl::::res://assets/test sprite.png<>uid://bvmmp60o104kv::::res://player/player.gd
