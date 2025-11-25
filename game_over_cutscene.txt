@@ -1,0 +1,15 @@
+Game Over Cutscene:
+
+[Lonk loses all of his hearts/HP/whatever]
+
+Lonk falls to the golem while making a valiant attempt to reach the Water Chip artifact. The village elder, Rye, finds Lonk's crushed and battered body. With tears in his eyes, the elder decides to bring Lonk's body back to their village, Boulangerie, for a proper burial.  Almost home with Lonk's body, Rye is aghast to see a meteorite strike their village. Overcome with insurmountable grief for his people, Rye collapses to the ground in despair...
+
+If only things had gone differently for Lonk...
+
+Rye wishes the boy would have another chance to be the hero he believed him to be...
+
+[Prompts/Buttons:
+
+Be the hero you are destined to be... (Try Again)
+
+Fade into obscurity and let the evil wizard, Sourdough, gradually destroy the rest of the world, piece by piece... (Quit)]

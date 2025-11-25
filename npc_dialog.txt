@@ -1,0 +1,25 @@
+NPC Dialog (Rye, the village elder):
+
+Lonk, our village has been keeping this loaf of bread in a secret cellar for centuries.
+
+It may look like a very stale loaf of bread, but it is more than meets the eye.
+
+Over the years, it has gained in power and become the Master Bre...
+
+I mean... the Stale Bread Knuckle!
+
+Take this and go into the dangerous ruins alone.
+
+[Loaf of bread on ground appears. Player walks into bread and attack becomes available.]
+
+[If Lonk tries to move to the next screen without grabbing the weapon, then Rye will say:
+
+Lonk! Even a strapping young hero like you must have a trusty weapon.
+
+It's hazardous to proceed solo. Accept this!]
+
+[Lonk can still proceed into the ruins without the bread in the tradition of The Legend of Zelda. The old Nintendo lore goes that when game testers of the original Legend of Zelda game complained about the difficulty, he had the programmers take away Link's sword and put it in the cave to make a point.]
+
+[Stretch goal: Add a phrase for Rye to say if Player interacts with him again?
+
+Rye: Go on then! Make sure not to eat the Stale Bread Knuckle. You'll break your teeth!]

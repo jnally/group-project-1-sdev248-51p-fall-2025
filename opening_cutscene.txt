@@ -1,0 +1,7 @@
+Opening Cutscene:
+
+The village of Boulangerie is dying. A drought caused by the evil wizard, Sourdough, is making the village and its people wither. The village elder, Rye, has appointed Lonk, a promising youth from the village, to venture into the ancient ruins to hunt for a relic known as the Water Chip.
+
+Rye shows Lonk the way and  brings him to a clearing in the woods in front of the ruins. The wise elder has something to aid Lonk on his quest. Lonk approaches the elder...
+
+[Cutscene ends and transitions to Forest]
