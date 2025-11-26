@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://uin8ejyxf1ge"]
+
+[ext_resource type="Script" uid="uid://c18ij2270o8kc" path="res://enemy/golem.gd" id="1_ced2k"]
+[ext_resource type="Texture2D" uid="uid://do833snxqyyxd" path="res://assets/Medium_Golem.png" id="1_fwxir"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ced2k"]
+size = Vector2(50, 47)
+
+[node name="Golem" type="CharacterBody2D" groups=["golem"]]
+script = ExtResource("1_ced2k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_fwxir")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_ced2k")

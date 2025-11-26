@@ -1,21 +1,32 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763955103
-Dungeon.tres::TileSet::5082127975441778524::1763953558::0::1::::<><><>0<>0<><>::uid://vxu8bav8n2tf::::res://Dungeon_Sprite_Sheet.png
+::res://::1764123070
+Dungeon.tres::TileSet::5082127975441778524::1764119635::0::1::::<><><>0<>0<><>::uid://vxu8bav8n2tf::::res://Dungeon_Sprite_Sheet.png
 Dungeon_Sprite_Sheet .jpg::::-1::1763952650::1763952650::0::::<><><>0<>0<>84a86088ee0fe08a1907e47fd806e78c<>::
 Dungeon_Sprite_Sheet.jpg::CompressedTexture2D::4299842321901997508::1763952650::1763952763::1::::<><><>0<>0<>7174766eb7505d7fc50a178eba15b68b<>res://.godot/imported/Dungeon_Sprite_Sheet.jpg-0c14ad57393c7130a8653d6e7b504452.ctex::
 Dungeon_Sprite_Sheet.png::CompressedTexture2D::1522719729318381711::1763952650::1763952763::1::::<><><>0<>0<>e4d9f4698b526ff57fb5f727772d88e7<>res://.godot/imported/Dungeon_Sprite_Sheet.png-56d78813e31be7ece67839008a05d1de.ctex::
-main.tscn::PackedScene::3825173151003247662::1763955312::0::1::::<><><>0<>0<><>::uid://cen251p3us277::::res://Dungeon.tres<>uid://cpwd6c4o6mcag::::res://player/player.tscn
 ::res://addons/::1763952864
-::res://assets/::1763953529
+::res://assets/::1764123070
+attack.png::CompressedTexture2D::8552711885350615867::1764123036::1764123070::1::::<><><>0<>0<>2368113bb5152235a2e7f3e70e591ffa<>res://.godot/imported/attack.png-72c9feda44ac8341d0a98dd3d8bd7b4b.ctex::
+Large_Golem.png::CompressedTexture2D::3510800846585675615::1764121054::1764121084::1::::<><><>0<>0<>2a60288cb8dc5cd6c308b6471628c56d<>res://.godot/imported/Large_Golem.png-485e4b5b608b625f42fc39e7686bfe44.ctex::
+Lonk.png::CompressedTexture2D::2305274091100480129::1764121048::1764121084::1::::<><><>0<>0<>99d7a41d7449553923184807cc5184dd<>res://.godot/imported/Lonk.png-9381c951da4761e017c71eaf6ac8f52e.ctex::
+Medium_Golem.png::CompressedTexture2D::8211781372492655185::1764121081::1764121084::1::::<><><>0<>0<>dcc1c79e76382f9fc1c0273a8c8ae5fc<>res://.godot/imported/Medium_Golem.png-aab78bf2c18105aa38f5c492b083ed68.ctex::
+Rye.png::CompressedTexture2D::432296308947728830::1764121059::1764121084::1::::<><><>0<>0<>9965e68d35f9713ea3e198331eccbb48<>res://.godot/imported/Rye.png-9b055b286f5b680558e568380e2de5b0.ctex::
+Small_Golem.png::CompressedTexture2D::8557185655731543701::1764121076::1764121084::1::::<><><>0<>0<>e78af64affff7601a581bed63f0bca0e<>res://.godot/imported/Small_Golem.png-7523b37297bab2e6a9a1c7411b092619.ctex::
+Stale_Bread_Knuckles.png::CompressedTexture2D::3298540140807329142::1764121069::1764121084::1::::<><><>0<>0<>62a34b992e86881aac86cbdebef9f9ef<>res://.godot/imported/Stale_Bread_Knuckles.png-d64100abe4e5c8a7c2b6dc3f40028f9f.ctex::
 test sprite.png::CompressedTexture2D::4806614428591562097::1763953518::1763953529::1::::<><><>0<>0<>2a1aa21b172296b1a9baf8186b6e8fe2<>res://.godot/imported/test sprite.png-b47fbde4de669385e0e33a807656f8ac.ctex::
+Water_Chip.png::CompressedTexture2D::2617632635606571872::1764121064::1764121084::1::::<><><>0<>0<>d559defbf69fbc14e68ad1257ed909ec<>res://.godot/imported/Water_Chip.png-6cf7ed92a10a4ba9244fb0b2d5812e0b.ctex::
+::res://assets/attack/::1764123070
 ::res://godot-git-plugin/::1763952651
 git_plugin.gdextension::GDExtension::2899736122753442061::1763952650::0::1::::<><><>0<>0<><>::
 plugin.cfg::TextFile::-1::1763952651::0::1::::<><><>0<>0<><>::
 THIRDPARTY.md::TextFile::-1::1763952650::0::1::::<><><>0<>0<><>::
 ::res://godot-git-plugin/linux/::1763952651
 ::res://godot-git-plugin/macos/::1763952651
-::res://godot-git-plugin/win64/::1763952877
-::res://main/::0
-::res://player/::1763955159
-player.gd::GDScript::3885915991478091461::1763955159::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::5871327993659378782::1763955159::0::1::::<><><>0<>0<><>::uid://caqmicoepfstl::::res://assets/test sprite.png<>uid://bvmmp60o104kv::::res://player/player.gd
+::res://godot-git-plugin/win64/::1764119447
+::res://main/::1764122085
+camera_2d.gd::GDScript::3142308518154694891::1764120968::0::1::::<>Camera2D<><>0<>0<><>::
+main.gd::GDScript::8023193731285967745::1764120988::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::3825173151003247662::1764122085::0::1::::<><><>0<>0<><>::uid://dmkq3f2msimi8::::res://main/main.gd<>uid://cen251p3us277::::res://Dungeon.tres<>uid://cpwd6c4o6mcag::::res://player/player.tscn<>uid://bk1fmkx14ydgd::::res://main/camera_2d.gd
+::res://player/::1764122776
+player.gd::GDScript::3885915991478091461::1764122264::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5871327993659378782::1764122776::0::1::::<><><>0<>0<><>::uid://bvmmp60o104kv::::res://player/player.gd<>uid://73xr605yq0xp::::res://assets/Lonk.png<>uid://dd2wowyumhs8j::::res://assets/attack/Classic_25.png

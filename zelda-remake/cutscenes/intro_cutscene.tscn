@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=3 uid="uid://dex0o2fe6mibx"]
+
+[ext_resource type="Script" uid="uid://doedkpyocy60w" path="res://cutscenes/intro_cutscene.gd" id="1_cx0yq"]
+[ext_resource type="Texture2D" uid="uid://gfn4e0psx0ko" path="res://assets/Rye.png" id="2_swneu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_swneu"]
+font_size = 24
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4pevw"]
+font_size = 29
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[node name="IntroCutscene" type="Node2D"]
+script = ExtResource("1_cx0yq")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Rye" type="Sprite2D" parent="."]
+position = Vector2(184.00002, 267)
+scale = Vector2(3.40625, 3.40625)
+texture = ExtResource("2_swneu")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D"]
+offset_left = -491.0
+offset_top = 126.0
+offset_right = 499.0
+offset_bottom = 279.0
+color = Color(0.38170326, 0.38170323, 0.38170323, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Camera2D"]
+offset_left = -492.0
+offset_top = 64.0
+offset_right = -294.0
+offset_bottom = 116.0
+color = Color(0.38170326, 0.38170323, 0.38170323, 1)
+
+[node name="Label" type="Label" parent="Camera2D"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -478.0
+offset_top = 131.0
+offset_right = 479.0
+offset_bottom = 595.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Lonk, our village has been keeping this loaf of bread in a secret cellar for centuries.
+It may look like a very stale loaf of bread, but it is more than meets the eye. 
+Over the years, it has gained in power and become the Master Bre...
+I mean... the Stale Bread Knuckle! Take this and go into the dangerous ruins alone..."
+label_settings = SubResource("LabelSettings_swneu")
+
+[node name="Label2" type="Label" parent="Camera2D"]
+offset_left = -481.0
+offset_top = 69.0
+offset_right = -309.0
+offset_bottom = 111.0
+text = "Elder Rye"
+label_settings = SubResource("LabelSettings_4pevw")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 234.0
+offset_top = 614.0
+offset_right = 925.0
+offset_bottom = 637.0
+text = "Press Space to Continue"
+horizontal_alignment = 1
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

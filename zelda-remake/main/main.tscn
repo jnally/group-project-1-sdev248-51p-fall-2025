@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=4 uid="uid://buq7bpvn5fqhy"]
+[gd_scene load_steps=7 format=4 uid="uid://buq7bpvn5fqhy"]
 
 [ext_resource type="Script" uid="uid://dmkq3f2msimi8" path="res://main/main.gd" id="1_xwkvk"]
 [ext_resource type="TileSet" uid="uid://cen251p3us277" path="res://Dungeon.tres" id="2_c651c"]
 [ext_resource type="PackedScene" uid="uid://cpwd6c4o6mcag" path="res://player/player.tscn" id="3_3wy1v"]
 [ext_resource type="Script" uid="uid://bk1fmkx14ydgd" path="res://main/camera_2d.gd" id="3_c651c"]
+[ext_resource type="PackedScene" uid="uid://uin8ejyxf1ge" path="res://enemy/golem.tscn" id="5_3wy1v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
 size = Vector2(512, 126.5)
@@ -21,14 +22,9 @@ collision_visibility_mode = 1
 position = Vector2(578, -381)
 script = ExtResource("3_c651c")
 
-[node name="Scene_1" type="Marker2D" parent="Camera2D"]
-position = Vector2(0, -1)
-
-[node name="Scene_2" type="Marker2D" parent="Camera2D"]
-position = Vector2(-3, -741)
-
 [node name="Player" parent="." instance=ExtResource("3_3wy1v")]
 position = Vector2(582, -385)
+scale = Vector2(1.3, 1.3)
 
 [node name="one_to_two_transition" type="Area2D" parent="."]
 
@@ -36,5 +32,25 @@ position = Vector2(582, -385)
 position = Vector2(582, -769.75)
 shape = SubResource("RectangleShape2D_0xm2m")
 
+[node name="two_to_three_transition" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="two_to_three_transition"]
+position = Vector2(582, -1469)
+shape = SubResource("RectangleShape2D_0xm2m")
+
+[node name="Scene_1" type="Marker2D" parent="."]
+position = Vector2(578, -381)
+
+[node name="Scene_2" type="Marker2D" parent="."]
+position = Vector2(575, -1122)
+
+[node name="Scene_3" type="Marker2D" parent="."]
+position = Vector2(575, -1818)
+
+[node name="Golem" parent="." instance=ExtResource("5_3wy1v")]
+position = Vector2(230, -1057)
+scale = Vector2(1.5, 1.5)
+
 [connection signal="transition" from="Camera2D" to="." method="_on_camera_2d_transition"]
 [connection signal="body_entered" from="one_to_two_transition" to="." method="_on_one_to_two_transition_body_entered"]
+[connection signal="body_entered" from="two_to_three_transition" to="." method="_on_two_to_three_transition_body_entered"]

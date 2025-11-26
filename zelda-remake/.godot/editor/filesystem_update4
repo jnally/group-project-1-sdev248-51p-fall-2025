@@ -1,8 +1,10 @@
-res://Dungeon.tres
-res://player/player.tscn
-res://node_2d.tscn
-res://main.tscn
-res://player/player.gd
-res://main/main.gd
 res://main/main.tscn
+res://Dungeon.tres
 res://main/camera_2d.gd
+res://main/main.gd
+res://player/player.gd
+res://player/player.tscn
+res://enemy/golem.tscn
+res://enemy/golem.gd
+res://cutscenes/intro_cutscene.tscn
+res://cutscenes/intro_cutscene.gd
